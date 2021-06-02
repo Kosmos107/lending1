@@ -1,0 +1,49 @@
+
+    .section-inner-header{
+    border-left:1px solid silver ;
+    border-right:1px solid silver ;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+    .header-section{ 
+        
+        &-navbar{
+            width: 100%;
+            max-height: 80px;
+            display: flex;
+            justify-content: space-between;
+            background-position: center;
+        }
+        &-links{
+            display: flex;
+            align-self: center;
+            &__link{
+                  display: block;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color:#969696;
+                    z-index: 10;
+                    padding: 25px 25px;
+                    text-transform: uppercase;
+                
+            }
+            &__link:hover{
+                background-color: #1F1F1F;
+                color:white;
+            }
+            &__badges{
+                &-img{
+                    padding: 20px 30px;
+                    
+                }
+            }
+        }
+    }
+   
+
+

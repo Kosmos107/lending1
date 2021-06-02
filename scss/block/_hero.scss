@@ -1,0 +1,22 @@
+
+
+.section-hero{
+   
+    background:url(/img/background/background_header.svg ) no-repeat 50% 50%;
+
+    position: relative;
+    &::before{ //крутая штука затемнить фон
+        content: "";
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left:0;
+        right: 0;
+        background-color: rgba(15 ,15 ,15,.6);
+    }
+
+    &-contant{
+    
+    }
+
+}
