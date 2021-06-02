@@ -2,9 +2,10 @@
 
 .section-hero{
    
-    background:url(/img/background/background_header.svg ) no-repeat 50% 50%;
-
-    position: relative;
+    background:url(/img/background/background_header.svg ) no-repeat ;
+    background-position: top center;
+    background-size:cover;
+    
     &::before{ //крутая штука затемнить фон
         content: "";
         position: absolute;
@@ -15,8 +16,32 @@
         background-color: rgba(15 ,15 ,15,.6);
     }
 
-    &-contant{
-    
-    }
+     &-contant{
+         z-index: 10;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        &__title{
+            color:beige;
+            z-index: 10;
+            max-width: 57%;
+
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            margin-bottom: 5%;
+            
+        }
+        &__logo{
+            margin-top: 10%;
+            margin-bottom: 5%;
+            border:beige 4px solid;
+            z-index: 10;
+            &-img{
+                padding: 83px 53px;
+            }
+        }
+     }
 
 }

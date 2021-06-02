@@ -349,19 +349,14 @@ body {
 }
 
 .section-inner {
-  border-left: 1px solid silver;
-  border-right: 1px solid silver;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 100vh;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .section-inner-header {
-  border-left: 1px solid silver;
-  border-right: 1px solid silver;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -379,6 +374,25 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-position: center;
+}
+
+.header-section-logo {
+  color: beige;
+  z-index: 10;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+}
+
+.header-section-logo__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  display: block;
 }
 
 .header-section-links {
@@ -405,13 +419,19 @@ body {
   color: white;
 }
 
+.header-section-links__badges {
+  z-index: 10;
+}
+
 .header-section-links__badges-img {
   padding: 20px 30px;
+  z-index: 10;
 }
 
 .section-hero {
-  background: url(/img/background/background_header.svg) no-repeat 50% 50%;
-  position: relative;
+  background: url(/img/background/background_header.svg) no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
 .section-hero::before {
@@ -422,5 +442,41 @@ body {
   left: 0;
   right: 0;
   background-color: rgba(15, 15, 15, 0.6);
+}
+
+.section-hero-contant {
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-hero-contant__title {
+  color: beige;
+  z-index: 10;
+  max-width: 57%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+.section-hero-contant__logo {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border: beige 4px solid;
+  z-index: 10;
+}
+
+.section-hero-contant__logo-img {
+  padding: 83px 53px;
 }
 /*# sourceMappingURL=style.css.map */
