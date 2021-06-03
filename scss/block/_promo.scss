@@ -1,0 +1,31 @@
+
+
+
+
+.section-promo{
+
+    .inner-promo{
+        display: flex;
+        border:chartreuse 5px solid; 
+        min-height: 70vh;
+        
+    }
+    &-shopwindow{
+        background-color: coral;
+        flex-basis: 50%;
+    }
+    &-data{}
+    &-goods{
+        
+        &__clock{}
+
+    }
+    &-catalog{
+        flex-basis: 50%;
+        background:url(/img/promo/newcolection.png);
+        &__title{}
+        &__button{}
+    }
+
+
+}

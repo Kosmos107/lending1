@@ -1,11 +1,14 @@
-
+.inner-promo{
+    min-height: 100vh;
+}
 
 .section-hero{
-   
-    background:url(/img/background/background_header.svg ) no-repeat ;
-    background-position: top center;
-    background-size:cover;
     
+    position: relative;
+    background:url(/img/background/background_header.svg ) no-repeat  50% 50%;
+
+    background-size:cover;
+   
     &::before{ //крутая штука затемнить фон
         content: "";
         position: absolute;
@@ -31,6 +34,7 @@
             line-height: 24px;
             font-weight: 400;
             margin-bottom: 5%;
+           
             
         }
         &__logo{
@@ -39,7 +43,7 @@
             border:beige 4px solid;
             z-index: 10;
             &-img{
-                padding: 83px 53px;
+                padding: 86px 53px;
             }
         }
      }

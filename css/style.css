@@ -354,6 +354,7 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  border: bisque 5px solid;
 }
 
 .section-inner-header {
@@ -428,9 +429,13 @@ body {
   z-index: 10;
 }
 
+.inner-promo {
+  min-height: 100vh;
+}
+
 .section-hero {
-  background: url(/img/background/background_header.svg) no-repeat;
-  background-position: top center;
+  position: relative;
+  background: url(/img/background/background_header.svg) no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -477,6 +482,26 @@ body {
 }
 
 .section-hero-contant__logo-img {
-  padding: 83px 53px;
+  padding: 86px 53px;
+}
+
+.section-promo .inner-promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: chartreuse 5px solid;
+  min-height: 70vh;
+}
+
+.section-promo-shopwindow {
+  background-color: coral;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.section-promo-catalog {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  background: url(/img/promo/newcolection.png);
 }
 /*# sourceMappingURL=style.css.map */
