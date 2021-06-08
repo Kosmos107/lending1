@@ -12,9 +12,22 @@ body{
     // border-right:1px solid silver ;
     width: 100%;
     max-width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
-     
     padding-left: 15px;
     padding-right: 15px;
-    border: bisque 5px solid;
+    // border: bisque 5px solid;
+    }
+
+
+    @mixin Playfair{
+        font-family:Playfair Display ;
+       
+    }
+
+    @mixin PTsans{
+
+        
+        
+        font-family:PT Sans;
     }
