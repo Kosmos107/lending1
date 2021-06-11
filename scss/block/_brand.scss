@@ -1,0 +1,17 @@
+.section-brand{
+    margin-top: 150px;
+   
+    background-color: #0f0f0f;
+    &-title{
+        padding-top: 5%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    &-container{
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 90px;
+    }
+}

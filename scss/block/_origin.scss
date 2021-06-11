@@ -1,7 +1,7 @@
 body{
     font-family:PT Sans;
     box-sizing: border-box;
-    background:#0F0F0F ;
+    background:black;
     
 }
 
@@ -16,6 +16,7 @@ body{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    
     // border: bisque 5px solid;
     }
 
@@ -31,3 +32,78 @@ body{
         
         font-family:PT Sans;
     }
+
+    .button {
+            display: block;
+            border:none;
+            outline: none;
+            background: none;
+            margin: 0 auto;
+            padding: 12px 28px;
+            border: 1px solid silver;
+            color: cornsilk;
+            font-size: 18px;
+            font-family:PT Sans ;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+    }
+    .button:hover{
+            background-color:white ;
+            color:black;
+    }
+
+    .katalog-clock{
+            background-color: #191B1C;
+            min-width: 200px;
+            
+            color:blanchedalmond;
+            &__img{
+                padding: 50px 10px 40px 10px;
+            }
+            &__img:hover{
+                padding: 30px 10px 20px 10px;
+                background-color: gray;
+                margin-bottom: 40px;
+            }
+            &__title{
+                text-align: left;
+                background-color: black;
+                padding-top: 20px;
+            }
+            &__subtitle{
+                text-align: left;
+                color:#D0D0D0;
+                background-color: black;
+                padding-top: 10px;
+            }
+        
+       
+    }
+    .katalog-clock:hover{
+        background-color: black;
+    }
+
+
+    .title{
+            position: relative;
+            text-align: center;
+            font-family:Playfair Display ;
+            font-weight: bold;
+            color:white;
+            font-size: 36px;
+            text-transform: uppercase;
+            margin-bottom: 10%;
+            
+            
+        }
+        .title:after{
+            content: "";
+            width: 120px;
+            height: 1px;
+            background-color: white;
+            position: absolute;
+            bottom:-50%;
+            right: 35%;
+            
+            
+        }

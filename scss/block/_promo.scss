@@ -10,8 +10,7 @@
         
     
     &-shopwindow{
-        padding-left:15px ;
-        padding-right:15px ;
+        
         background-color:black;
         flex-basis: 55%;
         display: flex;
@@ -20,25 +19,15 @@
         align-items: center;
     }
     &-data{
-        margin-top: 2%;
         color:white;
         font-family: Playfair Display;
         font-weight: 700;
         font-size: 36px;
         position: relative; 
-      ;  
-    }
-    &-data::after{
-        content: "";
-        width: 120px;
-        height: 1px;
-        background-color: white;
-        position: absolute;
-        top:100px;
-        left:30%;
-        right: 0;
+       margin-top: 20px;
         
     }
+   
 
     &-goods{
         margin-top: 40px;
@@ -51,32 +40,6 @@
         font-family: Playfair Display;
         font-weight: 400;
         font-size: 18px;
-        &__clock{
-            background-color: #191B1C;
-            min-width: 200px;
-            &-img{
-                padding: 50px 10px 40px 10px;
-            }
-            &-img:hover{
-                padding: 30px 10px 20px 10px;
-                background-color: gray;
-            }
-            &-title{
-                text-align: left;
-                background-color: black;
-                padding-top: 20px;
-            }
-            &-subtitle{
-                text-align: left;
-                color:#D0D0D0;
-                background-color: black;
-                padding-top: 10px;
-            }
-        }
-        &__clock:hover{
-            background-color: black;
-            
-        }
 
     }
     &-catalog{
@@ -89,43 +52,10 @@
             width: 100%;
             max-width: 400px;
             margin: 60% auto 0 auto;
-           
-        &__title{
-            position: relative;
-            text-align: center;
-            font-family:Playfair Display ;
-            font-weight: bold;
-            color:white;
-            font-size: 36px;
-            text-transform: uppercase;
-            margin-bottom: 12%;
         }
-        &__title:after{
-            content: "";
-            width: 120px;
-            height: 1px;
-            background-color: white;
-            position: absolute;
-            bottom:-50%;
-            left:35%;
-            right: 0;
-            
-        }
-        &__button{
-            display: block;
-            border:none;
-            outline: none;
-            background: none;
-            margin: 0 auto;
-            padding: 12px 28px;
-            border: 1px solid silver;
-            color: cornsilk;
-            font-size: 18px;
-            font-family:PT Sans ;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-        }
-        }
+       
+      
+        
     }
 
 
