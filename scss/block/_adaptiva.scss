@@ -1,0 +1,78 @@
+
+
+
+// Устройства XX-Large (большие настольные компьютеры, 1400 пикселей и выше)
+@media screen and (max-width: 1400px) {};
+
+// Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше)
+@media screen and (max-width: 1200px) { };
+
+// Устройства Large (настольные компьютеры, 992 пикселей и выше)
+@media screen and  (max-width: 992px) {
+    .section-inner{
+        max-width: 900px;
+    }
+    .section-inner-header{
+        max-width: 900px;
+    }
+    .header-section-navbar{
+        justify-content: space-around;
+        min-height: 100px;
+    }
+    .header-section-links{
+        display: none;
+    }
+    .header-section-burger{
+        display: flex;
+    }
+    .section-promo{
+        flex-direction: column;
+    }
+    .section-promo-shopwindow {
+        flex-basis: 0;
+    }
+    .section-promo-catalog-container{
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+    .section-promo-goods{
+        display: none;
+    }
+
+    .section-collection{
+       
+    }
+    .section-collection__img{
+      display: none;}
+
+    .section-collection-content{
+        flex-basis: 0;
+        margin: 0 auto;
+    }
+
+    .section-footer__block{
+        flex-direction: column
+    }
+    section-promo-goods{
+        min-width: none;
+    }
+    .katalog-clock{
+        min-width:0;
+    }
+    .section-collection-content{
+       
+    }
+};
+
+
+
+// Устройства Medium (планшеты, 768 пикселей и выше)
+@media screen and (max-width: 768px) { };
+
+
+
+// Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)
+@media (max-width: 576px) {  };
+
+
+

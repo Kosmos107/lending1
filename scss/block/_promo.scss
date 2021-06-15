@@ -1,9 +1,14 @@
 
-
+  @media (max-width: 992px) {
+    .section-promo{
+        flex-direction: column;
+    }
+};
 
 
 .section-promo{
-
+  
+    
     
         display: flex;  
         min-height: 90vh;

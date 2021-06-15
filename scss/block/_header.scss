@@ -32,6 +32,26 @@
                 display: block;
             }
         }
+        &-burger{
+            width: 45px;
+            height: 40px;
+           align-self: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            display: none;
+           
+            &__line{
+                display: block;
+                width: 100%;
+                max-width: 50px;
+                height: 5px;
+                background-color:grey;
+                z-index: 5;
+                align-items: center;
+                border-radius: 10%;
+            }
+        }
         &-links{
             display: flex;
             align-self: center;
