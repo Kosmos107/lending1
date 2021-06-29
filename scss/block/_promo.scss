@@ -9,7 +9,7 @@
 .section-promo{
   
     
-    
+
         display: flex;  
         min-height: 90vh;
         
@@ -60,7 +60,9 @@
         }
        
       
-        
+        &__button{
+            margin-top: 50px;
+        }
     }
 
 

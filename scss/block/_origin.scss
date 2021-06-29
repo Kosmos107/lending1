@@ -5,7 +5,9 @@ body{
     
 }
 
-
+*{
+    box-sizing: border-box;
+}
 
 .section-inner{
     // border-left:1px solid silver ;
@@ -97,12 +99,13 @@ body{
         }
         .title:after{
             content: "";
-            width: 120px;
+            width: 30%;
             height: 1px;
             background-color: white;
             position: absolute;
-            bottom:-50%;
-            right: 35%;
+            bottom:-40%;
+            left: 35%;
+            
             
             
         }
@@ -118,3 +121,5 @@ body{
         .nonactive{
             display: none;
         }
+
+        

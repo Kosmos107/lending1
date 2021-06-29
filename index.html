@@ -13,20 +13,30 @@
         rel="stylesheet">
     <title>adaptiva</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header class="header-section">
+        <div class="burger-header__menu ">
+            <a class="header-section-links__link" href=#>понравилось</a>
+            <a class="header-section-links__link" href=#>личный кабинет</a>
+            <a class="header-section-links__link" href=#>настройки</a>
+            <div class="header-section-links__badges">
+                <img src="/img/badges/bx_bx-cart.svg" alt="" class="header-section-links__badges-img">
+                <img src="/img/badges/gridicons_search.svg" alt="" class="header-section-links__badges-img">
+            </div>
+        </div>
         <div class="section-inner-header">
             <div class="header-section-navbar">
                 <div class="header-section-logo">
                     <img class="header-section-logo__img" src="img/PORTEN.svg" alt="logo">
                     <a class="header-section-logo__link" href="logo"></a>
                 </div>
-                <div class="header-section-burger">
+                <div class="header-section-burger ">
+
                     <span class="header-section-burger__line"></span>
-                    <span class="header-section-burger__line"></span>
-                    <span class="header-section-burger__line"></span>
+
                 </div>
                 <div class="header-section-links">
                     <a class="header-section-links__link" href=#>понравилось</a>
@@ -60,7 +70,7 @@
     <section class="section-promo">
         <div class="section-promo-shopwindow">
             <div class="section-promo-data ">
-                <div class="title">СЕЗОН 2020/21</div>
+                <h1 class="title">СЕЗОН 2020/21</h1>
             </div>
             <div class="section-promo-goods">
                 <div class=" katalog-clock">
@@ -82,7 +92,10 @@
             </div>
             <div class=" section-promo-catalog">
                 <div class="section-promo-catalog-container">
-                    <div class="section-promo-catalog__title title">Новая коллекция</div>
+                    <div class="section-promo-catalog__title ">
+                        <h2 class="title">Новая коллекция
+                        </h2>
+                    </div>
                     <button class="section-promo-catalog__button button">
                         каталог
                     </button>
@@ -99,9 +112,9 @@
 
         <div class="section-collection-content">
 
-            <div class="section-collection__title title">
+            <span class="section-collection__title title">
                 коллекция 2018
-            </div>
+            </span>
             <p class="section-collection__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
                 rutrum ornare ut mattis habitant dui arcu. Sagittis amet nunc ut neque quis nibh arcu. Vivamus
                 vestibulum nisi et venenatis sed scelerisque magna consectetur. Amet convallis quis gravida facilisis
@@ -119,10 +132,11 @@
     <section class="section-store">
         <div class="section-inner">
             <div class="section-store__title ">
-                <div class="title"> новые поступления</div>
+                <h1 class="title">
+                    новые поступления</span>
+                </h1>
             </div>
-
-            <div class="section-store-container">
+            <div class="section-store-container store-container">
                 <div class=" katalog-clock">
                     <img class="katalog-clock__img" src="/img/promo/clock.png" alt="">
                     <div class="katalog-clock__title">Louis XVI ATHOS</div>
@@ -194,7 +208,7 @@
     <section class="section-footer">
         <div class="section-inner">
             <div class="section-footer__block">
-                <div class="section-footer__block-store">
+                <div class="section-footer__block-store p-footer">
                     <div class="section-footer__title">О магазине</div>
                     <p class="section-footer__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper
@@ -203,7 +217,7 @@
                         amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi,
                         nunc.</p>
                 </div>
-                <div class="section-footer__block-category">
+                <div class="section-footer__block-category p-footer">
                     <div class="section-footer__title ">Категории</div>
                     <div class="section-footer-wrapper-btns">
                         <div class="section-footer-wrapper-btns__btn">часы</div>
@@ -213,7 +227,7 @@
                         <div class="section-footer-wrapper-btns__btn">запонки</div>
                     </div>
                 </div>
-                <div class="section-footer__block-mailing">
+                <div class="section-footer__block-mailing p-footer">
                     <div class="section-footer__title">Рассылка</div>
                     <p class="section-footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper
                         viverra nunc cursus tortor lectus nunc nulla nibh..</p>
@@ -225,6 +239,7 @@
             </div>
         </div>
     </section>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

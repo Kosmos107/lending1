@@ -27,26 +27,29 @@
     }
     .section-promo{
         flex-direction: column;
+        min-height: 40vh;
     }
     .section-promo-shopwindow {
         flex-basis: 0;
+        padding-bottom:30px ;
     }
     .section-promo-catalog-container{
         margin-top: 30%;
         margin-bottom: 30%;
+        padding: 0 15px;
     }
     .section-promo-goods{
         display: none;
     }
 
     .section-collection{
-       
+        margin-bottom: -130px;
     }
     .section-collection__img{
       display: none;}
 
     .section-collection-content{
-        flex-basis: 0;
+        flex-basis: 1;
         margin: 0 auto;
     }
 
@@ -59,8 +62,23 @@
     .katalog-clock{
         min-width:0;
     }
-    .section-collection-content{
-       
+  
+
+    .p-footer{
+        margin:  20px 0 20px 0
+    }
+
+    .section-store-container{
+        max-width: 300px;
+        margin: 80px auto 0 auto;
+        flex-direction: column;
+    }
+    .store-container{
+        display: none;
+    }
+    .section-brand-container{
+        flex-direction: column
+        
     }
 };
 
